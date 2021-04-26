@@ -33,12 +33,12 @@ import java.util.Map;
 
 public class ImagesActivity extends AppCompatActivity implements ImagesAdapter.OnItemClickListener {
 
-     RecyclerView recyclerView;
-    ImagesAdapter imagesAdapter;
-    ProgressBar progressBar;
+    private RecyclerView recyclerView;
+    private ImagesAdapter imagesAdapter;
+    private ProgressBar progressBar;
 
 
-    List<Upload> uploads;
+    private List<Upload> uploads;
 
     private DatabaseReference databaseReference;
     private FirebaseStorage firebaseStorage;
