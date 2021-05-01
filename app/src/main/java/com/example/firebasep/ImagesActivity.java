@@ -44,6 +44,7 @@ public class ImagesActivity extends AppCompatActivity implements ImagesAdapter.O
     private FirebaseStorage firebaseStorage;
 
     private ValueEventListener eventListener;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
