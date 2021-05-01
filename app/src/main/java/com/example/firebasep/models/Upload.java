@@ -17,7 +17,7 @@ public class Upload {
     public Upload(String name, String imgUrl) {
         if (name.trim().equals(""))
         {
-            name="No Name";
+            name="no_name";
         }
         this.name = name;
         this.imgUrl = imgUrl;
